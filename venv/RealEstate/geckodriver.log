@@ -1,0 +1,132 @@
+1530004718933	geckodriver	INFO	geckodriver 0.21.0
+1530004718944	geckodriver	INFO	Listening on 127.0.0.1:51599
+1530004722107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\OEM\\AppData\\Local\\Temp\\rust_mozprofile.osuM5VAj4TTn"
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+1530004744532	Marionette	INFO	Listening on port 51621
+1530004745660	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20640[Parent 12468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530005306969	geckodriver	INFO	geckodriver 0.21.0
+1530005306978	geckodriver	INFO	Listening on 127.0.0.1:53832
+1530005309997	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\OEM\\AppData\\Local\\Temp\\rust_mozprofile.a63itRQGabr0"
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+1530005316433	Marionette	INFO	Listening on port 53852
+1530005317176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=654971432, line 1: unreachable code after return statement
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=654971432, line 1: unreachable code after return statement
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=654971432 line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+1530005469803	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1530005471310	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 16548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+d 12740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1443653095, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+1530005469803	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1530005471299	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+console.error: "stylesheets actor: fetch failed for https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css, using system principal instead."
+console.error: (new Error("Failed to fetch https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css. Code 2153390067.", "resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js", 551))
+onResponse@resource://devtools/shared/base-loader.js -> resource://devtools/shared/DevToolsUtils.js:551:23
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:17
+console.error: "Protocol error (unknownError): Failed to fetch https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css. Code 2153390067."
+console.error: "Protocol error (unknownError): Failed to fetch https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css. Code 2153390067."
+console.error: "Protocol error (unknownError): Failed to fetch https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css. Code 2153390067."
+console.error: (new TypeError("rx.exec(...) is null", "resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js", 1707))
+getTextAtLineColumn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1707:14
+getRuleText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1594:7
+getAuthoredCssText/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1262:20
+console.error: "Protocol error (unknownError): rx.exec(...) is null"
+console.error: "Protocol error (unknownError): rx.exec(...) is null"
+console.error: "Protocol error (unknownError): rx.exec(...) is null"
+console.error: (new TypeError("rx.exec(...) is null", "resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js", 1707))
+getTextAtLineColumn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1707:14
+getRuleText@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1594:7
+getAuthoredCssText/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:1262:20
+console.error: "Protocol error (unknownError): rx.exec(...) is null"
+console.error: "Protocol error (unknownError): rx.exec(...) is null"
+[Child 16480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16480, Chrome_ChildThrea[Child 9340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 34[Parent 17040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1530005521542	geckodriver	INFO	geckodriver 0.21.0
+1530005521556	geckodriver	INFO	Listening on 127.0.0.1:54762
+1530005524585	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\OEM\\AppData\\Local\\Temp\\rust_mozprofile.cU6ZeeeZfF5L"
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+1530005529848	Marionette	INFO	Listening on port 54781
+1530005530201	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1477408383, line 1: unreachable code after return statement
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1477408383, line 1: unreachable code after return statement
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1477408383 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+[Parent 1376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15224, Chrome_ChildThread] WARNING: pipe
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1530005658160	geckodriver	INFO	geckodriver 0.21.0
+1530005658174	geckodriver	INFO	Listening on 127.0.0.1:55481
+1530005661175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\OEM\\AppData\\Local\\Temp\\rust_mozprofile.sW44wDI7MISK"
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+1530005667674	Marionette	INFO	Listening on port 55499
+1530005667842	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=88550114, line 1: unreachable code after return statement
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=88550114, line 1: unreachable code after return statement
+JavaScript warning: https://www.qv.co.nz/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=88550114 line 1 > eval, line 1: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\OEM\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+[Child 8704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8704, Chrome_ChildThread] W[Child 13736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 137[Parent 11940, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13760, Chr*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
