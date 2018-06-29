@@ -11,8 +11,9 @@ def readLine(file):
     lineData = file.readline()
     elements = lineData.split(',')
     address = elements[5]
-    lattitude = elements[15]
-    longitude = elements[16]
+    lattitude = elements[16]
+    lattitude = lattitude.replace("\n", "")
+    longitude = elements[15]
     longitude = longitude.replace("\n", "")
     return address, lattitude, longitude
 
@@ -117,7 +118,7 @@ def findValueFromWebPage (driver):
     # If it's not residential, we don't want the data
     elem = driver.find_element_by_css_selector(".buildingTypeVal")
     type = elem.text
-    if "Residential" not in type:
+    if ("Residential" not in type) or ("Dwelling" not in type):
         return -1
 
     # Turn the text string into an integer, and return
@@ -137,7 +138,8 @@ readFile = openFile()
 
 # I am expecting to have to run this file several times, hence will discard some lines before
 #   starting to process data
-startProcessingFromLine = 1367
+#startProcessingFromLine = 1544
+startProcessingFromLine = 48122
 currentLine = 1
 
 while currentLine < startProcessingFromLine:
@@ -154,18 +156,18 @@ driver = openBrowser(True)
 while currentLine < 50000:
 
     lineData = readLine(readFile)
-    lattitude = lineData[1]
-    longitude = lineData[2]
+    longitude  = lineData[1]
+    lattitude = lineData[2]
     address =  lineData[0]
 
     if createSearch(driver, address) != 0:
         value = findValueFromWebPage(driver)
         if value > 0:
             category = getPriceCategory(value)
-            printLine = str(currentLine) + "|" + lattitude + "|" + longitude  + "|" + str(category)  + "|" + str(value)  + "|" + address + "\n"
+            printLine = str(currentLine) + "|" + longitude + "|" + lattitude  + "|" + str(category)  + "|" + str(value)  + "|" + address + "\n"
 
             # Open file to write to
-            writeFile = open("Property Data For ML", "a")
+            writeFile = open("Property Data For ML.csv", "a")
             writeFile.write(printLine)
             writeFile.close()
             print(printLine)
