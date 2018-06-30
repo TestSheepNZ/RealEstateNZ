@@ -54,8 +54,17 @@ ML_BayRidge.fit(inputData, outputData)
 
 # Neural Network
 from sklearn.neural_network import MLPClassifier
-ML_NeuralNet = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 100, 100, 100, 100, 100, 100, 100, 100), random_state=1)
-ML_NeuralNet.fit(inputData, outputData)
+ML_NeuralNetCmplx = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 100, 100, 100, 100, 100, 100, 100, 100), random_state=1)
+ML_NeuralNetCmplx.fit(inputData, outputData)
+
+ML_NeuralNetSimple = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20), random_state=1)
+ML_NeuralNetSimple.fit(inputData, outputData)
+
+ML_NeuralNetBigShallow = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(100, 100, 100, 100), random_state=1)
+ML_NeuralNetBigShallow.fit(inputData, outputData)
+
+ML_NeuralNetSmallShallow = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(10, 10, 10, 10), random_state=1)
+ML_NeuralNetSmallShallow.fit(inputData, outputData)
 
 # Predict house on Ponsonby road
 ponsonbyLat =  -36.848461
@@ -78,7 +87,10 @@ upperHuttLong = 175.0708
 upperHutt = [[upperHuttLat, upperHuttLong]]
 
 
-print("Neural Net predicts Ponsonby Rd price class as " + str(ML_NeuralNet.predict(ponsonby)))
+print("Neural Net CMPLX predicts Ponsonby Rd price class as " + str(ML_NeuralNetCmplx.predict(ponsonby)))
+print("Neural Net SIMPLE predicts Ponsonby Rd price class as " + str(ML_NeuralNetSimple.predict(ponsonby)))
+print("Neural Net BIG SHALLOW predicts Ponsonby Rd price class as " + str(ML_NeuralNetBigShallow.predict(ponsonby)))
+print("Neural Net SMALL SHALLOW predicts Ponsonby Rd price class as " + str(ML_NeuralNetSmallShallow.predict(ponsonby)))
 
 print("Bay Ridge predicts Ponsonby Rd price class as " + str(ML_BayRidge.predict(ponsonby)))
 
